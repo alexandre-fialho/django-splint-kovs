@@ -1,5 +1,8 @@
 # django-splint-kovs
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-splint-kovs)
+![PyPI - License](https://img.shields.io/pypi/l/django-splint-kovs)
+![PyPI](https://img.shields.io/pypi/v/django-splint-kovs)
 <br>
 
 ## How to install?
