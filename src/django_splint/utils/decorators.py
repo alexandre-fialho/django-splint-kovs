@@ -14,7 +14,10 @@ class splint_cached_property:
         cache_key: Callable[..., _T] = None,
         cache_expires: Optional[int] = None,
     ):
-        """Class to cached values in cache services.
+        """Class to saves properties in cache services.
+
+        For more details on how to configure caching services: 
+        - https://docs.djangoproject.com/en/4.0/topics/cache/
 
         Args:
             func (Callable[..., _T]): Callable should be return any 

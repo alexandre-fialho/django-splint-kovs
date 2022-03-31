@@ -9,8 +9,6 @@ class SplintViewSetMixin:
 
     def get_serializer_class(self):
         """Change serializer for list."""
-        if self.request.version == 'v1':
-            return super().get_serializer_class()
         if hasattr(self, 'list_serializer_class') and self.action == 'list':
             return self.list_serializer_class
         if (hasattr(self, 'write_serializer_class') and
