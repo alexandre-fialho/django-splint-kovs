@@ -4,7 +4,6 @@ from datetime import datetime
 
 import django.db.models.options as options
 from django.contrib.auth.models import UserManager
-from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.db.models.query import QuerySet
 from django.forms.models import model_to_dict
