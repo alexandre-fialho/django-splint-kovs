@@ -5,7 +5,7 @@ from django.core.exceptions import FieldError
 
 from import_export.admin import ExportActionMixin
 
-from db.models import SplintModel
+from django_splint.db.models import SplintModel
 
 
 try:
