@@ -4,7 +4,7 @@
 ![PyPI](https://img.shields.io/pypi/v/django-splint-kovs)
 <br>
 
-This repo contains some good utilities to project with django.
+django-splint-kovs is a tool for projects with django framework, here you will find some basic settings for your models, views, serializers and adminitrators. This package assumes you have already started a project with django framework, otherwise see [Getting started with Django](https://www.djangoproject.com/start/)
 
 ## How to install?
 ```python
