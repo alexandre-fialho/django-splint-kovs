@@ -1,3 +1,4 @@
+import json
 import warnings
 
 from typing import Callable, Optional, TypeVar, Any
@@ -105,5 +106,8 @@ class splint_cached_property:
                     f"does not support item assignment for caching {self.attrname!r} property."
                 )
                 warnings.warn(msg, Warning)
+
+        if not isinstance(cache_value, dict):
+            cache_value = json.loads(cache_value)
 
         return cache_value
